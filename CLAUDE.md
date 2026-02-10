@@ -4,13 +4,17 @@ Systemweite Entwicklungsdokumentation und Workflows.
 
 ## Scope
 
-Konversationen hier dienen ausschließlich:
-- Neue Ideen/Projekte besprechen und einordnen
-- Projektstrukturen anlegen (Ordner, Git-Repo, CLAUDE.md) → Workflow: `workflows/new-project.md`
-- Besprochenes vollständig in die neue Projekt-CLAUDE.md übertragen
-- Workflows und Devlog pflegen
+Konversationen hier haben genau zwei Phasen:
 
-**Keine Umsetzung in meta/.** Nach Projektanlage → Konversationen im Projektordner starten.
+**Phase 1 — Besprechen:** Idee/Aufgabe verstehen, Zielordner bestimmen (neues Projekt oder bestehender Ordner wie `infra/`).
+
+**Phase 2 — Anlegen und Übergeben:**
+1. Ordner + Git-Repo erstellen (nur bei neuem Projekt, Workflow: `workflows/new-project.md`)
+2. CLAUDE.md bzw. Task-Datei im Zielordner erstellen — mit vollständigem Kontext aus der Diskussion
+3. Devlog-Eintrag schreiben
+4. Fertig. Hinweis an User: „Neue Konversation im Zielordner starten."
+
+**Das ist ALLES was hier passiert.** Keine Implementierungsplanung, keine Schrittanleitungen, keine technische Analyse. Das gehört in den Zielordner.
 
 ## Zuständigkeit
 
