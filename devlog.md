@@ -4,6 +4,11 @@ Globales Entwicklungslog. Neueste Einträge zuerst.
 
 ---
 
+## 2026-02-10 — Symlink-Problem: Past Conversations nicht sichtbar
+**Ordner:** meta/ (Planung), infra/ (Ausführung)
+**Was:** Ursache identifiziert: `/home/claude-code/projects` → `/srv/projects` Symlink führt dazu, dass Claude Code Sessions unter `-srv-projects-*` speichert, VSCode aber unter `-home-claude-code-*` sucht. Auch `/home/walters/projects` → `/srv/projects` betroffen. Plan erstellt: Symlink auflösen, `/home/claude-code/projects/` als echtes Root, Session-Daten migrieren.
+**Warum:** Past Conversations in meta/ (und zukünftig jedem Unterordner) nicht in der UI sichtbar. Wiederkehrendes Problem seit User-Wechsel walters → claude-code.
+
 ## 2026-02-10 — Scope-Abgrenzung und Kontextübergang meta/ → Projekt
 **Ordner:** /srv/projects/meta/, /srv/projects/ (Root)
 **Was:** meta/CLAUDE.md um expliziten Scope ergänzt (keine Umsetzung hier). Workflow-Vorlage für neue Projekte um Status-, Hintergrund-, Nächste-Schritte- und Offene-Fragen-Abschnitte erweitert. Sichergestellt, dass beim Konversations-Umzug in den Projektordner der volle Kontext in der CLAUDE.md steht.
