@@ -1,0 +1,79 @@
+# =============================================================================
+# .claudeignore — Hide sensitive files from Claude Code
+# =============================================================================
+# Copy this file to the root of any project.
+# Uses .gitignore syntax.
+# =============================================================================
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Secrets directories and files
+secrets/
+secret.*
+**/credentials*
+**/password*
+
+# SSH keys
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+id_ecdsa
+id_ecdsa.*
+id_dsa
+id_dsa.*
+*.pub
+
+# Cloud provider credentials
+.aws/
+.azure/
+.gcloud/
+.config/gcloud/
+
+# Container and orchestration
+.kube/
+.docker/config.json
+
+# Package manager auth
+.npmrc
+.pypirc
+.netrc
+
+# Git credentials
+.git-credentials
+
+# API keys and tokens
+*api_key*
+*apikey*
+*secret_key*
+*private_key*
+*access_token*
+token.json
+
+# Service accounts
+*service_account*.json
+*serviceaccount*.json
+*google*credentials*.json
+firebase*.json
+
+# Vault
+vault*
+.vault*
+
+# Encrypted files
+*.enc
+*.encrypted
