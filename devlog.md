@@ -4,6 +4,11 @@ Globales Entwicklungslog. Neueste Einträge zuerst.
 
 ---
 
+## 2026-02-11 — Umstrukturierung meta/ zum Projekt-Inkubator
+**Ordner:** meta/
+**Was:** meta/ von Docs-Ordner zum Projekt-Inkubator umgebaut. Neue Struktur: `projects/offen|laufend|erledigt/` für Projektstatus-Verwaltung, `templates/` mit CLAUDE.md-Vorlage und Checkliste. `workflows/` aufgelöst (Inhalt in CLAUDE.md + templates/ integriert). CLAUDE.md komplett neu geschrieben. Root-CLAUDE.md-Verweise aktualisiert.
+**Warum:** Bewährtes Muster von der Firmen-Instanz übernommen. Projektplanung bekommt explizite Statusverwaltung statt loser Dateien.
+
 ## 2026-02-10 — Symlink-Fix: /home/claude-code/projects/ ist echtes Root
 **Ordner:** infra/, meta/, ~/.claude/projects/
 **Was:** Symlink aufgelöst: `/home/claude-code/projects/` ist jetzt echtes Verzeichnis, `/srv/projects` und `/home/walters/projects` sind Symlinks hierher. Claude-Session-Daten migriert (`-srv-projects*` → `-home-claude-code-projects*`). Pfad-Referenzen in Root-CLAUDE.md, infra/CLAUDE.md, new-project-Workflow und Auto-Memory aktualisiert.
