@@ -57,6 +57,8 @@ Checkliste zum Abhaken: `templates/checkliste.md` – **immer durcharbeiten!**
 
 ## Devlog-Regeln
 
-- Neue Einträge OBEN einfügen (nach dem Header, vor bestehenden Einträgen)
-- Bei >500 Zeilen: Ältere Einträge in `devlog-archiv-YYYY.md` auslagern
-- Jeder Eintrag: Datum, Kurztitel, Ordner, Was, Warum
+- Format: siehe Root-CLAUDE.md (Kategorie, Bereich, Dateien, Kontext, Commit)
+- Pro Repo: `DEVLOG.md` im jeweiligen Repo, neueste Einträge oben
+- Global: `DEVLOG-GLOBAL.md` in meta/ — Format: `### [reponame] Titel — Datum`
+- Bei >500 Zeilen: Ältere Einträge in `DEVLOG-ARCHIV-YYYY.md` auslagern
+- Bei Änderungen an mehreren Repos: Eintrag in jedem betroffenen DEVLOG.md + DEVLOG-GLOBAL.md
