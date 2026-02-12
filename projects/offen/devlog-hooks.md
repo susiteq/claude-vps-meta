@@ -26,10 +26,10 @@ Post-Commit-Hooks für automatische DEVLOG.md-Einträge und n8n-Aggregation nach
 - Webhook-Endpunkt für Echtzeit-Updates
 - Umsetzung in `n8n-builder/`
 
-## Offene Fragen
+## Entscheidungen
 
-- Kategorie-Erkennung: Aus Commit-Message-Prefix (z.B. `[Feature]`) oder interaktiv?
-- Soll der Hook auch DEVLOG-GLOBAL.md direkt aktualisieren oder nur per n8n?
+- **Kategorie-Erkennung:** Commit-Message-Prefix (z.B. `[Feature]`, `[Bugfix]`, `[Doku]`, `[Infra]`, `[Refactoring]`, `[Security]`, `[Config]`)
+- **Global-Update:** Hook aktualisiert beides — DEVLOG.md im Repo + DEVLOG-GLOBAL.md in `~/projects/meta/`
 
 ## Nächste Schritte
 

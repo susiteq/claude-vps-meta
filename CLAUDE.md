@@ -29,7 +29,7 @@
 1. **Klären:** Was ist das Projekt? Zweck, Umfang, beteiligte Services/Tools
 2. **Projektdatei erstellen** in `projects/offen/`
 3. **CLAUDE.md schreiben** – Vorlage: `templates/claude-md.md`, Goldene Regel beachten
-4. **Verzeichnis erstellen** und CLAUDE.md dort ablegen
+4. **Verzeichnis erstellen** und CLAUDE.md dort ablegen — Projektdatei aus `meta/projects/` im Zielverzeichnis verlinken
 5. **`.claudeignore` kopieren** aus `~/projects/infra/security/templates/`
 6. **Root-CLAUDE.md aktualisieren** falls nötig
 7. **Susi informieren:** „Neue Conversation in `<zielverzeichnis>/` starten"

@@ -5,6 +5,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [meta] Projektdatei-Verlinkung + devlog-hooks organisiert — 2026-02-12
+**Kategorie:** Doku | **Commit:** c194f4c
+
 ### [meta] Umstrukturierung zum Projekt-Inkubator — 2026-02-11
 **Kategorie:** Infra | **Commit:** 3919f7a
 

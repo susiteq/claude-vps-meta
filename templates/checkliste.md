@@ -4,6 +4,7 @@
 - [ ] Zielverzeichnis bestimmt
 - [ ] Projektdatei in `projects/offen/` erstellt
 - [ ] CLAUDE.md im Zielverzeichnis nach Vorlage (`templates/claude-md.md`) erstellt
+- [ ] Projektdatei aus `meta/projects/` im Zielverzeichnis verlinkt (Pfad in CLAUDE.md)
 - [ ] `.claudeignore` aus `~/projects/infra/security/templates/` kopiert
 - [ ] Verzeichnis + Git-Repo angelegt (`git init && git branch -m main`)
 - [ ] `DEVLOG.md` im neuen Repo erstellt (Format siehe Root-CLAUDE.md)

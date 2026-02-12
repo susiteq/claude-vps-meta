@@ -4,6 +4,13 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-12 — Projektdatei-Verlinkung + devlog-hooks organisiert
+**Kategorie:** Doku
+**Bereich:** Workflow, Templates
+**Dateien:** `CLAUDE.md`, `templates/checkliste.md`, `templates/claude-md.md`, `projects/offen/devlog-hooks.md`
+**Kontext:** Fehlende Anweisung ergänzt, dass Projektdateien aus meta/projects/ im Zielverzeichnis verlinkt werden. Devlog-hooks-Projekt: offene Fragen geklärt und dokumentiert.
+**Commit:** c194f4c
+
 ### 2026-02-11 — Umstrukturierung zum Projekt-Inkubator
 **Kategorie:** Infra
 **Bereich:** Gesamtstruktur

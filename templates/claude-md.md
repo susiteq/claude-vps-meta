@@ -2,6 +2,7 @@
 
 ## Status
 Idee und Grundrichtung wurden in meta/ vorbesprochen. Dokumentation unten ist der vereinbarte Startpunkt.
+**Projektdatei:** `~/projects/meta/projects/<status>/<name>.md`
 > Hier weiterarbeiten: Planung vertiefen, dann umsetzen.
 
 ## Zweck
