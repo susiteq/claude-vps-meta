@@ -5,6 +5,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [infra] Hooks-CLAUDE.md ausgelagert — 2026-02-12
+**Kategorie:** Refactoring | **Commit:** –
+
 ### [infra] Devlog-Hooks-Projekt vorbereitet — 2026-02-12
 **Kategorie:** Infra | **Commit:** 2643a65
 
