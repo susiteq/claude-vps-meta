@@ -1,6 +1,6 @@
 # Devlog-Hooks & Automation
 
-**Status:** Offen
+**Status:** Phase 1 umgesetzt (Hook + Installer). Phase 2 (n8n) offen.
 **Zielverzeichnis:** `~/projects/infra/`
 **Priorität:** Mittel
 
@@ -33,4 +33,4 @@ Post-Commit-Hooks für automatische DEVLOG.md-Einträge und n8n-Aggregation nach
 
 ## Nächste Schritte
 
-→ Neue Conversation in `~/projects/infra/` starten
+- Phase 2: n8n-Aggregation (DEVLOG-GLOBAL.md automatisch per Webhook/Timer)

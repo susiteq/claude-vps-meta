@@ -21,6 +21,7 @@
 - Susi öffnet die relevante Projektdatei im IDE → daraus ergibt sich der Kontext
 - Wenn keine Projektdatei geöffnet/vorhanden → neue in `offen/` erstellen
 - Bei Projektstart: Datei per `git mv` von `offen/` nach `laufend/` verschieben
+- Bei Abschluss: Datei per `git mv` von `laufend/` nach `erledigt/` verschieben
 
 ---
 
