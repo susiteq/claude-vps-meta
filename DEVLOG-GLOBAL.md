@@ -5,6 +5,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [infra] Devlog-Hooks-Projekt vorbereitet — 2026-02-12
+**Kategorie:** Infra | **Commit:** 2643a65
+
 ### [meta] Projektdatei-Verlinkung + devlog-hooks organisiert — 2026-02-12
 **Kategorie:** Doku | **Commit:** c194f4c
 
