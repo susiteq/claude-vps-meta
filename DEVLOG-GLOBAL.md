@@ -5,6 +5,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [infra] Projektdatei-Verweis auf erledigt/ aktualisiert — 2026-02-12
+**Kategorie:** Doku | **Commit:** 97c3f39
+
 ### [meta] Projektdatei devlog-hooks nach erledigt verschoben + Abschluss-Regel ergaenzt — 2026-02-12
 **Kategorie:** Doku | **Commit:** 913cd18
 
