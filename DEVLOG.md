@@ -4,6 +4,13 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-12 — Projektdatei devlog-hooks nach erledigt verschoben + Abschluss-Regel ergaenzt
+**Kategorie:** Doku
+**Bereich:** CLAUDE.md, Projects
+**Dateien:** `CLAUDE.md`, `devlog-hooks.md`
+**Kontext:** Projektdatei devlog-hooks nach erledigt verschoben + Abschluss-Regel ergaenzt
+**Commit:** 913cd18
+
 ### 2026-02-12 — Projektdatei-Verlinkung + devlog-hooks organisiert
 **Kategorie:** Doku
 **Bereich:** Workflow, Templates
