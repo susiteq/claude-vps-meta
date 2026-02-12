@@ -5,6 +5,15 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [meta] Projektdatei devlog-hooks nach erledigt verschoben + Abschluss-Regel ergaenzt — 2026-02-12
+**Kategorie:** Doku | **Commit:** 913cd18
+
+### [infra] paste-Delimiter in post-commit-devlog korrigiert — 2026-02-12
+**Kategorie:** Bugfix | **Commit:** 1676c19
+
+### [infra] Devlog-Hooks: post-commit-devlog + install-hooks — 2026-02-12
+**Kategorie:** Feature | **Commit:** 96dd769
+
 ### [infra] Hooks-CLAUDE.md ausgelagert — 2026-02-12
 **Kategorie:** Refactoring | **Commit:** –
 
