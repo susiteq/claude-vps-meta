@@ -4,6 +4,13 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-13 — projekt: Selfhosted Apps Config-Repo angelegt
+**Kategorie:** Sonstig
+**Bereich:** Projects
+**Dateien:** `selfhosted-repo.md`
+**Kontext:** projekt: Selfhosted Apps Config-Repo angelegt
+**Commit:** 5a5f5ad
+
 ### 2026-02-13 — projekt: devlog-hook-global-fix nach erledigt verschoben
 **Kategorie:** Sonstig
 **Bereich:** Projects
