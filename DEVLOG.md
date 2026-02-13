@@ -4,6 +4,13 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-13 — projekt: Devlog-Hook DEVLOG-GLOBAL.md Fix angelegt
+**Kategorie:** Sonstig
+**Bereich:** Projects
+**Dateien:** `devlog-hook-global-fix.md`
+**Kontext:** projekt: Devlog-Hook DEVLOG-GLOBAL.md Fix angelegt
+**Commit:** 07bee91
+
 ### 2026-02-13 — projekt: Vaultwarden Send-Authelia-Bypass angelegt
 **Kategorie:** Sonstig
 **Bereich:** Projects
