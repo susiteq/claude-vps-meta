@@ -4,6 +4,13 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-13 — projekt: Vaultwarden Send-Authelia-Bypass angelegt
+**Kategorie:** Sonstig
+**Bereich:** Projects
+**Dateien:** `vw-send-authelia.md`
+**Kontext:** projekt: Vaultwarden Send-Authelia-Bypass angelegt
+**Commit:** e9beb01
+
 ### 2026-02-12 — Projektdatei devlog-hooks nach erledigt verschoben + Abschluss-Regel ergaenzt
 **Kategorie:** Doku
 **Bereich:** CLAUDE.md, Projects
