@@ -5,6 +5,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [meta] projekt: Vaultwarden Send-Authelia-Bypass angelegt — 2026-02-13
+**Kategorie:** Sonstig | **Commit:** e9beb01
+
 ### [infra] Projektdatei-Verweis auf erledigt/ aktualisiert — 2026-02-12
 **Kategorie:** Doku | **Commit:** 97c3f39
 
