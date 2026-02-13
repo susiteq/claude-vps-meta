@@ -5,6 +5,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [meta] projekt: Devlog-Hook DEVLOG-GLOBAL.md Fix angelegt — 2026-02-13
+**Kategorie:** Sonstig | **Commit:** 07bee91
+
 ### [meta] projekt: Vaultwarden Send-Authelia-Bypass angelegt — 2026-02-13
 **Kategorie:** Sonstig | **Commit:** e9beb01
 
