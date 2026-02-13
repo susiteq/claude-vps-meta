@@ -5,6 +5,12 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [meta] projekt: devlog-hook-global-fix nach erledigt verschoben — 2026-02-13
+**Kategorie:** Sonstig | **Commit:** 06ea72a
+
+### [infra] DEVLOG-GLOBAL.md im meta-Repo mit-committen — 2026-02-13
+**Kategorie:** Bugfix | **Commit:** 44c6848
+
 ### [meta] projekt: Devlog-Uhrzeit angelegt — 2026-02-13
 **Kategorie:** Sonstig | **Commit:** 18cfbf0
 

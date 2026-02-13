@@ -4,6 +4,13 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-13 — projekt: devlog-hook-global-fix nach erledigt verschoben
+**Kategorie:** Sonstig
+**Bereich:** Projects
+**Dateien:** `devlog-hook-global-fix.md`
+**Kontext:** projekt: devlog-hook-global-fix nach erledigt verschoben
+**Commit:** 06ea72a
+
 ### 2026-02-13 — projekt: Devlog-Uhrzeit angelegt
 **Kategorie:** Sonstig
 **Bereich:** Projects
