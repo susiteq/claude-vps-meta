@@ -5,6 +5,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [meta] projekt: Selfhosted Apps Config-Repo angelegt — 2026-02-13
+**Kategorie:** Sonstig | **Commit:** 5a5f5ad
+
 ### [meta] projekt: devlog-hook-global-fix nach erledigt verschoben — 2026-02-13
 **Kategorie:** Sonstig | **Commit:** 06ea72a
 
