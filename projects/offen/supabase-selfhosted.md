@@ -1,43 +1,38 @@
 # Supabase Self-Hosted
 
-**Status:** Offen — Docker Compose aufsetzen
+**Status:** In Arbeit — Dateien erstellt, Deployment steht aus
 **Priorität:** Hoch (Grundlage für claude-memory + gobot-telegram)
 
 ## Zweck
 
-Self-hosted Supabase-Instanz via Docker Compose. Dient als Datenbank-Backend für Claude-Memory (semantisches Langzeitgedächtnis) und zukünftige App-Projekte.
+Self-hosted Supabase-Instanz via Docker Compose als DB-Backend für Claude-Memory und zukünftige Apps.
 
-## Hintergrund
+## Setup
 
-- Tutorial-Referenz: Autonomee/Gobot (YouTube: BYEaLMnfIjg) — nutzt Supabase Cloud, wir machen Self-Hosted
-- Teil eines 3-Projekte-Ökosystems: **supabase** → claude-memory → gobot-telegram
-- Server hat bereits Caddy + Authelia als Reverse Proxy / Auth
-- Eine Instanz für alles (Memory + Apps) — verschiedene Schemas/Datenbanken zur Trennung
+- **VPS:** 3. Hostinger KVM4 (App-VPS), Domain: `data.genwal.cloud`
+- **Stack:** Vollständig (alle 13 Services) — offizielles Docker-Setup + minimale Overrides
+- **Caddy** in Docker als Reverse Proxy (Auto-HTTPS)
+- **Auth:** Auto-Confirm (SMTP später via mailbox.org, siehe `mailbox-smtp.md`)
+- **pgvector** aktiviert für Vektor-Suche
 
-## Tech-Stack
+## Dateien (im Repo ~/projects/supabase/)
 
-- Docker Compose
-- PostgreSQL 15+ mit pgvector Extension
-- Supabase-Services: GoTrue, PostgREST, Realtime, Storage, Studio, Kong
-- Caddy (Reverse Proxy) + Authelia (Auth) — bestehende Infra nutzen
+- `docker-compose.yml` — offiziell, unverändert
+- `docker-compose.override.yml` — Caddy-Service + pgvector-Volume
+- `Caddyfile` — Reverse-Proxy für data.genwal.cloud
+- `generate-secrets.sh` — Generiert .env mit allen Secrets + JWT-Tokens
+- `volumes/` — offizielle Init-Scripts + pgvector
 
 ## Nächste Schritte
 
-1. Offizielles Supabase Docker-Setup evaluieren (github.com/supabase/supabase/docker)
-2. Docker Compose anpassen (Ports, Volumes, Netzwerk)
-3. pgvector Extension aktivieren
-4. Caddy-Config für Studio + API-Zugang
-5. Authelia-Bypass für API-Endpoints konfigurieren
-6. Testen: Studio erreichbar, API funktioniert, pgvector aktiv
-
-## Offene Fragen
-
-- Welche Supabase-Services werden tatsächlich gebraucht? (Realtime? Storage? Oder erstmal nur PostgreSQL + PostgREST + GoTrue?)
-- Ressourcen-Bedarf auf dem Server — genug RAM/CPU für alle Services?
-- Backup-Strategie: Integration in bestehendes Borg-Setup?
+1. Coolify auf App-VPS stoppen
+2. DNS: A-Record `data.genwal.cloud` → App-VPS IP
+3. Repo auf App-VPS klonen, `generate-secrets.sh` ausführen
+4. `docker compose up -d`
+5. Verifizieren: Studio, REST-API, pgvector
 
 ## Bezug zu anderen Projekten
 
-- **selfhosted-repo:** Configs können später ins zentrale Repo migriert werden
 - **claude-memory:** Braucht laufende Supabase-Instanz als Voraussetzung
 - **gobot-telegram:** Braucht Supabase + Memory als Voraussetzung
+- **mailbox-smtp:** SMTP für Supabase Auth
