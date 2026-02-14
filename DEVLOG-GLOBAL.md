@@ -5,6 +5,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [meta] projekte: Supabase-Ökosystem angelegt (3 Projekte) — 2026-02-14
+**Kategorie:** Sonstig | **Commit:** 267f1c2
+
 ### [meta] 3 Projekte angelegt: Supabase-Ökosystem — 2026-02-14
 **Kategorie:** Feature | **Commit:** –
 
