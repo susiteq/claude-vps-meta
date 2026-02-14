@@ -4,6 +4,13 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-14 — mcp-youtube-transcript: offen → erledigt (YouTube blockt VPS-IPs)
+**Kategorie:** Sonstig
+**Bereich:** Projects
+**Dateien:** `mcp-youtube-transcript.md`
+**Kontext:** mcp-youtube-transcript: offen → erledigt (YouTube blockt VPS-IPs)
+**Commit:** f59841e
+
 ### 2026-02-14 — projekte: Supabase-Ökosystem angelegt (3 Projekte)
 **Kategorie:** Sonstig
 **Bereich:** DEVLOG-GLOBAL.md, DEVLOG.md, Projects
