@@ -5,6 +5,18 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [meta] 3 Projekte angelegt: Supabase-Ökosystem — 2026-02-14
+**Kategorie:** Feature | **Commit:** –
+
+### [supabase] Projekt angelegt — 2026-02-14
+**Kategorie:** Infra | **Commit:** –
+
+### [claude-memory] Projekt angelegt — 2026-02-14
+**Kategorie:** Infra | **Commit:** –
+
+### [gobot] Projekt angelegt — 2026-02-14
+**Kategorie:** Infra | **Commit:** –
+
 ### [meta] projekt: MCP YouTube Transcript Server angelegt — 2026-02-14
 **Kategorie:** Sonstig | **Commit:** 63d721f
 

@@ -4,6 +4,12 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-14 — 3 Projekte angelegt: Supabase-Ökosystem
+**Kategorie:** Feature
+**Bereich:** Projects
+**Dateien:** `projects/offen/supabase-selfhosted.md`, `projects/offen/claude-memory.md`, `projects/offen/gobot-telegram.md`
+**Kontext:** Drei zusammenhängende Projekte geplant: Self-hosted Supabase, Claude-Memory (semantisches Langzeitgedächtnis via MCP), Gobot-Telegram. Jeweils Projektdatei + Verzeichnis + CLAUDE.md + Git-Repo angelegt.
+
 ### 2026-02-14 — projekt: MCP YouTube Transcript Server angelegt
 **Kategorie:** Sonstig
 **Bereich:** DEVLOG-GLOBAL.md, DEVLOG.md, Projects
