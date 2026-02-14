@@ -5,6 +5,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [meta] Update supabase-selfhosted Status, neue Aufgabe mailbox-smtp — 2026-02-14
+**Kategorie:** Sonstig | **Commit:** be8070c
+
 ### [meta] mcp-youtube-transcript: offen → erledigt (YouTube blockt VPS-IPs) — 2026-02-14
 **Kategorie:** Sonstig | **Commit:** f59841e
 
