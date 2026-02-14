@@ -5,6 +5,13 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 ---
 
 ### 2026-02-14 — projekt: MCP YouTube Transcript Server angelegt
+**Kategorie:** Sonstig
+**Bereich:** DEVLOG-GLOBAL.md, DEVLOG.md, Projects
+**Dateien:** `DEVLOG-GLOBAL.md`, `DEVLOG.md`, `mcp-youtube-transcript.md`
+**Kontext:** projekt: MCP YouTube Transcript Server angelegt
+**Commit:** 63d721f
+
+### 2026-02-14 — projekt: MCP YouTube Transcript Server angelegt
 **Kategorie:** Feature
 **Bereich:** Projects
 **Dateien:** `projects/offen/mcp-youtube-transcript.md`
