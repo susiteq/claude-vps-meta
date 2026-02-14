@@ -5,6 +5,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 
 ---
 
+### [meta] mcp-youtube-transcript: offen → erledigt (YouTube blockt VPS-IPs) — 2026-02-14
+**Kategorie:** Sonstig | **Commit:** f59841e
+
 ### [meta] projekte: Supabase-Ökosystem angelegt (3 Projekte) — 2026-02-14
 **Kategorie:** Sonstig | **Commit:** 267f1c2
 
