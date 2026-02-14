@@ -4,6 +4,12 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-14 — projekt: MCP YouTube Transcript Server angelegt
+**Kategorie:** Feature
+**Bereich:** Projects
+**Dateien:** `projects/offen/mcp-youtube-transcript.md`
+**Kontext:** Python MCP Server für YouTube-Transkripte geplant. Projektverzeichnis + CLAUDE.md angelegt.
+
 ### 2026-02-13 — projekt: Selfhosted Apps Config-Repo angelegt
 **Kategorie:** Sonstig
 **Bereich:** Projects
