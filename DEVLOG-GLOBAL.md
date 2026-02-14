@@ -6,6 +6,9 @@ Vorerst manuell gepflegt, später per n8n automatisiert.
 ---
 
 ### [meta] projekt: MCP YouTube Transcript Server angelegt — 2026-02-14
+**Kategorie:** Sonstig | **Commit:** 63d721f
+
+### [meta] projekt: MCP YouTube Transcript Server angelegt — 2026-02-14
 **Kategorie:** Feature | **Commit:** –
 
 ### [meta] projekt: Selfhosted Apps Config-Repo angelegt — 2026-02-13
