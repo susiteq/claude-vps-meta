@@ -4,6 +4,13 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-14 — projekte: Supabase-Ökosystem angelegt (3 Projekte)
+**Kategorie:** Sonstig
+**Bereich:** DEVLOG-GLOBAL.md, DEVLOG.md, Projects
+**Dateien:** `DEVLOG-GLOBAL.md`, `DEVLOG.md`, `claude-memory.md`, `gobot-telegram.md`, `supabase-selfhosted.md`
+**Kontext:** projekte: Supabase-Ökosystem angelegt (3 Projekte)
+**Commit:** 267f1c2
+
 ### 2026-02-14 — 3 Projekte angelegt: Supabase-Ökosystem
 **Kategorie:** Feature
 **Bereich:** Projects
