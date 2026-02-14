@@ -4,6 +4,13 @@ Entwicklungsprotokoll. Neueste Einträge zuerst.
 
 ---
 
+### 2026-02-14 — Update supabase-selfhosted Status, neue Aufgabe mailbox-smtp
+**Kategorie:** Sonstig
+**Bereich:** Projects
+**Dateien:** `mailbox-smtp.md`, `supabase-selfhosted.md`
+**Kontext:** Update supabase-selfhosted Status, neue Aufgabe mailbox-smtp
+**Commit:** be8070c
+
 ### 2026-02-14 — mcp-youtube-transcript: offen → erledigt (YouTube blockt VPS-IPs)
 **Kategorie:** Sonstig
 **Bereich:** Projects
